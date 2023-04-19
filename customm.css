@@ -1,0 +1,137 @@
+
+
+body{
+    background-color: linear-gradient(180deg,#dee5f3 0%,rgba(210, 225, 255, 0)100%);
+  }
+  .night-mode{
+      background-color: #000;
+      color: #fff;
+  }
+  
+  .img-bg{
+    position: absolute; top: 0; 
+  }
+  .img-bg2{
+    position: absolute;
+    right: 0;top: 0; 
+    /* z-index: -2; */
+  }
+  .action_btn{
+      padding: 8px 22px; border-radius: 20px;background-color: transparent;border: 1px solid rgb(135, 147, 158);cursor: pointer;font-weight: 550;color: rgb(135, 147, 158);
+    }
+    .action_btn:hover{
+    background-color: rgb(78, 136, 255);border: none;color: rgb(255, 255, 255);
+  }
+  .action_btn:active{
+    scale: 0.95;
+  }
+  .nav-item a{
+    color: rgb(107, 100, 100);
+    font-size: 20px;text-align: center;font-weight: 600; margin: 0px 8px;
+  }
+  .nav-item a:hover{
+  color:rgb(78, 136, 255) ;
+  }
+  
+  .activee a{
+      color: #2196F3;
+  }
+  .navbar-scrolled{
+        
+        --fallback-background: rgba(209, 207, 207, 0.6);
+    --background: #c5c1c1;
+    background-color: var(--fallback-background); /* Fallback */
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;margin-top: 5px; 
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(78, 136, 255);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;display: flex; justify-content: space-around;
+  }
+  .slider.round i{
+      display: flex; justify-content: space-around;margin: auto;z-index: 1;color: #fff;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .bitcoin div{
+  display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;color: rgb(248, 241, 241);border-radius: 50%;margin: 3rem 1rem;border: 4px solid #fff;
+  }
+  .bitcoin div i{
+      padding-top: 5px;
+  }
+  .dark_logo{
+      display: none;
+  }
+  .light_logo.hide{
+      display: none;
+  }
+  .dark_logo.show{
+      display: block;
+  }
+  .dark_img{
+      display: none;
+  }
+  .light_img.hide{
+      display: none;
+  }
+  .dark_img.show{
+      display: block;
+  }
+  .page-link img{
+      width: 10rem;
+  }
+  

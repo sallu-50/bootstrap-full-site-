@@ -1,0 +1,16 @@
+.card{
+  width: 80%;background-color: #fff;margin: auto;
+}
+
+.single_img{
+    margin: auto;width: 100%; height: 25rem;
+}
+.author_date{
+    justify-content: space-around; display: flex;margin: 20px 0px;font-size: 20px;
+}
+.title{
+    font-size: 35px; text-decoration: none;
+}
+.body_font{
+    font-size: 20px;
+}
